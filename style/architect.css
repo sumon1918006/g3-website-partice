@@ -218,6 +218,9 @@ footer {
   .sponsors-img-container {
     flex-direction: column;
   }
+  .sponsors-img-container {
+    gap: 30px;
+  }
 
   .feature-img img {
     width: 90%;
@@ -252,5 +255,14 @@ footer {
   .teams-container,
   .sponsors-img-container {
     flex-direction: column;
+  }
+  .sponsors-img-container {
+    gap: 30px;
+  }
+  .facts-card-container {
+    /* display: flex; */
+
+    gap: 40px;
+    /* justify-content: center; */
   }
 }
